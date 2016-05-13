@@ -246,7 +246,7 @@ function govi_mecanismos_contacto_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 14,
+      'weight' => 13,
     ),
   );
 
@@ -446,7 +446,7 @@ function govi_mecanismos_contacto_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 15,
+      'weight' => 14,
     ),
   );
 
