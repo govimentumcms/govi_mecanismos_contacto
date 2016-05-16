@@ -66,11 +66,11 @@ function govi_mecanismos_contacto_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-menu-mecanismos-de-contacto_notificaciones-judiciales:<front>.
-  $menu_links['menu-menu-mecanismos-de-contacto_notificaciones-judiciales:<front>'] = array(
+  // Exported menu link: menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126.
+  $menu_links['menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126'] = array(
     'menu_name' => 'menu-menu-mecanismos-de-contacto',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'node/126',
+    'router_path' => 'node/%',
     'link_title' => 'Notificaciones Judiciales',
     'options' => array(
       'cami' => array(
@@ -84,11 +84,11 @@ function govi_mecanismos_contacto_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-menu-mecanismos-de-contacto_notificaciones-judiciales:<front>',
+      'identifier' => 'menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
