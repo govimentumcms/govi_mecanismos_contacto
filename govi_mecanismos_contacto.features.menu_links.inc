@@ -14,7 +14,7 @@ function govi_mecanismos_contacto_menu_default_menu_links() {
   $menu_links['menu-menu-mecanismos-de-contacto_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal'] = array(
     'menu_name' => 'menu-menu-mecanismos-de-contacto',
     'link_path' => 'transparencia/atencion-ciudadano/sede-principal',
-    'router_path' => 'transparencia/atencion-ciudadano/sede-principal',
+    'router_path' => 'transparencia',
     'link_title' => 'Atención al ciudadano',
     'options' => array(
       'cami' => array(

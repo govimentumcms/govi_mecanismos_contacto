@@ -9,7 +9,7 @@
  */
 function govi_mecanismos_contacto_webform_defaults() {
 $webforms = array();
-  $webforms['correo_electr_nico_para_notifica'] = array(
+  $webforms['notificaciones_juciciales'] = array(
   'title' => 'Correo electrónico para notificaciones judiciales',
   'log' => '',
   'status' => 1,
@@ -110,7 +110,7 @@ $webforms = array();
     'preview_message' => '',
     'preview_message_format' => 'filtered_html',
     'preview_excluded_components' => array(),
-    'machine_name' => 'correo_electr_nico_para_notifica',
+    'machine_name' => 'notificaciones_juciciales',
     'record_exists' => TRUE,
     'roles' => array(
       0 => 1,
@@ -118,10 +118,10 @@ $webforms = array();
     ),
     'emails' => array(
       0 => array(
-        'email' => 'correo_electr_nico_para_notifica__judicial_remitente',
+        'email' => NULL,
         'subject' => 'default',
-        'from_name' => 'correo_electr_nico_para_notifica__judicial_nombre_remitente',
-        'from_address' => 'correo_electr_nico_para_notifica__judicial_correo_remitente',
+        'from_name' => NULL,
+        'from_address' => NULL,
         'template' => 'default',
         'excluded_components' => array(
           0 => 6,
@@ -132,10 +132,10 @@ $webforms = array();
         'extra' => FALSE,
         'status' => 1,
         'components_machine_names' => array(
-          'email' => TRUE,
+          'email' => FALSE,
           'subject' => FALSE,
-          'from_name' => TRUE,
-          'from_address' => TRUE,
+          'from_name' => FALSE,
+          'from_address' => FALSE,
         ),
       ),
     ),
@@ -321,7 +321,7 @@ Utilice solamente el formato corto de correo electrónico: nombre@correo.com',
   'print_mail_display_comment' => 0,
   'print_mail_display_urllist' => 1,
   'webform_features_author' => 'root',
-  'webform_features_revision_author' => '',
+  'webform_features_revision_author' => 'root',
 );
 return $webforms;
 }
