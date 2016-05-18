@@ -9,7 +9,7 @@
  */
 function govi_mecanismos_contacto_webform_defaults() {
 $webforms = array();
-  $webforms['notificaciones_juciciales'] = array(
+  $webforms['form_notificaciones_judiciales'] = array(
   'title' => 'Correo electrónico para notificaciones judiciales',
   'log' => '',
   'status' => 1,
@@ -110,7 +110,7 @@ $webforms = array();
     'preview_message' => '',
     'preview_message_format' => 'filtered_html',
     'preview_excluded_components' => array(),
-    'machine_name' => 'notificaciones_juciciales',
+    'machine_name' => 'form_notificaciones_judiciales',
     'record_exists' => TRUE,
     'roles' => array(
       0 => 1,
@@ -310,7 +310,7 @@ Utilice solamente el formato corto de correo electrónico: nombre@correo.com',
   'last_comment_name' => NULL,
   'last_comment_uid' => 1,
   'comment_count' => 0,
-  'machine_name' => 'formulario_notificaciones_judiciales',
+  'machine_name' => 'form_notificaciones_judiciales',
   'name' => 'root',
   'picture' => 0,
   'data' => 'b:0;',
