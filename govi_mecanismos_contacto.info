@@ -70,5 +70,5 @@ features[views_view][] = enlaces_institucionales_pie_de_pagina_3
 features[views_view][] = enlaces_institucionales_pie_de_pagina_4
 features[views_view][] = informacion_entidad
 features[views_view][] = logo_escudo_colombia_pie
-features[webform][] = notificaciones_juciciales
+features[webform][] = form_notificaciones_judiciales
 project path = sites/all/modules/features
