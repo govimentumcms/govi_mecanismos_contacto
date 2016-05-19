@@ -66,34 +66,6 @@ function govi_mecanismos_contacto_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126.
-  $menu_links['menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126'] = array(
-    'menu_name' => 'menu-menu-mecanismos-de-contacto',
-    'link_path' => 'node/126',
-    'router_path' => 'node/%',
-    'link_title' => 'Notificaciones Judiciales',
-    'options' => array(
-      'cami' => array(
-        'pages' => '',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-menu-mecanismos-de-contacto_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>.
   $menu_links['menu-menu-mecanismos-de-contacto_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>'] = array(
     'menu_name' => 'menu-menu-mecanismos-de-contacto',
