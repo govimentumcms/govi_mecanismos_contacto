@@ -58,7 +58,6 @@ features[field_instance][] = node-mecanismos_atencion_ciudadano-field_correo_jud
 features[menu_custom][] = menu-menu-mecanismos-de-contacto
 features[menu_links][] = menu-menu-mecanismos-de-contacto_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal
 features[menu_links][] = menu-menu-mecanismos-de-contacto_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes
-features[menu_links][] = menu-menu-mecanismos-de-contacto_notificaciones-judiciales:node/126
 features[menu_links][] = menu-menu-mecanismos-de-contacto_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>
 features[node][] = enlaces_pie_de_pagina
 features[node][] = mecanismos_atencion_ciudadano
