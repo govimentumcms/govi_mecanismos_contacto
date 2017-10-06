@@ -15,7 +15,7 @@ function govi_mecanismos_contacto_views_default_views() {
   $view->description = 'Presenta la información de contacto, enlaces relacionados y ubicacion y horarios en el pie de pagina';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Información Entidad';
+  $view->human_name = 'Mecanismos de contacto para el sujeto obligado ';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -111,11 +111,6 @@ function govi_mecanismos_contacto_views_default_views() {
   $handler->display->display_options['filters']['sticky']['table'] = 'node';
   $handler->display->display_options['filters']['sticky']['field'] = 'sticky';
   $handler->display->display_options['filters']['sticky']['value'] = '1';
-
-  /* Display: Pie de página */
-  $handler = $view->new_display('block', 'Pie de página', 'block');
-  $handler->display->display_options['defaults']['header'] = FALSE;
-  $handler->display->display_options['block_description'] = 'Pie Información de la Entidad';
 
   /* Display: Mecanismos de contacto con el sujeto obligado */
   $handler = $view->new_display('page', 'Mecanismos de contacto con el sujeto obligado', 'mecanismos_contacto');
@@ -452,8 +447,6 @@ function govi_mecanismos_contacto_views_default_views() {
     t('Correo electrónico notificaciones judiciales'),
     t('Horario de Atención'),
     t('Ciudad'),
-    t('Pie de página'),
-    t('Pie Información de la Entidad'),
     t('Mecanismos de contacto con el sujeto obligado'),
     t('Mecanismos para la atencion a la ciudadanía'),
     t('Este display muestra la información de contacto de la sede principal de la Entidad'),
