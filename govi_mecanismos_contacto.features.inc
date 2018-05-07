@@ -37,9 +37,9 @@ function govi_mecanismos_contacto_node_info() {
       'help' => '',
     ),
     'mecanismos_atencion_ciudadano' => array(
-      'name' => t('Mecanismos de atención al ciudadano'),
+      'name' => t('1. Mecanismos de contacto'),
       'base' => 'node_content',
-      'description' => t('Utilice este tipo de contenido para gestionar información de los mecanismos de atención al ciudadano.'),
+      'description' => t('Con este tipo de contenido puede gestionar la información de contacto de la Sede Principal y la Localización física de las Sucursales de la Entidad. El contenido de la Sede Principal debe tener la opción de publicación "Fijo en la cabeza de las Listas", lo cual también permite que el contenido de la Sede Principal se visualice en el Pie de Página Institucional.'),
       'has_title' => '1',
       'title_label' => t('Nombre'),
       'help' => '',

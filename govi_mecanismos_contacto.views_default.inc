@@ -360,7 +360,7 @@ function govi_mecanismos_contacto_views_default_views() {
   $view->description = 'Presenta la información de contacto, enlaces relacionados y ubicacion y horarios en el pie de pagina';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Información Entidad';
+  $view->human_name = '1. Mecanismos de contacto';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
